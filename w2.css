@@ -1,0 +1,301 @@
+html{
+  scroll-behavior: smooth;
+}
+.desc-3 {
+  font-size: 14px;
+  width: 350px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.b-plan{
+    list-style: none;
+    padding: 0;
+}
+
+.b-plan li::before{
+    content: "- ";
+}
+
+.i-plan{
+    list-style: none;
+    padding: 0;
+}
+
+.i-plan li::before{
+    content: "- ";
+}
+
+.a-plan{
+    list-style: none;
+    padding: 0;
+}
+
+.a-plan li::before{
+    content: "- ";
+}
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgb(91, 0, 0);
+    padding:15px;
+    text-align: right;
+    gap: 50px;
+}
+nav a:hover{
+    color:red;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+body{
+    padding-top:70px;
+}
+.container{
+display:flex;
+justify-content:center;
+justify-content:space-between;
+align-items:center;
+gap:30px;
+}
+
+nav a{
+color:rgb(255, 255, 255);
+text-decoration:none;
+font-size:20px;
+}
+
+.home-button hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color:rgb(216, 140, 140);
+}
+
+.hero{
+  text-align:center;
+  padding:80px 10px
+}
+.hero h1{
+  font-size:70px;
+  margin-bottom:20px;
+}
+.hero h2{
+  font-size:45px;
+  margin-bottom:20px;
+}
+.hero p{
+  max-width:800px;
+  margin:auto;
+  margin-bottom:20px;
+  line-height:1.8;
+  font-size:20px;
+}
+
+.about{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.about h2{
+  font-size:45px;
+  margin-bottom:40px;
+}
+
+.about p{
+  max-width:800px;
+  margin:auto;
+  margin-bottom:30px;
+  line-height:1.8;
+  font-size:20px;
+}
+
+.membership{
+  text-align:center;
+  padding:80px 10px
+}
+.membership h2{
+  font-size: 45px;
+  margin-bottom:20px;
+}
+.membership p{
+  max-width:800px;
+  margin:auto;
+  margin-bottom:20px;
+  line-height:1.8;
+  font-size:20px;
+}
+
+.learn-1{
+  background-color: rgb(91, 0, 0);
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 0.15s;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      vertical-align: top;
+      margin-bottom: 8px;
+}
+.learn-1:hover{
+      opacity: 0.8;
+    }
+
+.learn-1:active{
+      opacity: 0.4;
+    }
+.learn-2{
+  background-color: rgb(91, 0, 0);
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 0.15s;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      vertical-align: top;
+      margin-bottom: 8px;
+}
+.learn-2:hover{
+      opacity: 0.8;
+}
+
+.learn-2:active{
+      opacity: 0.4;
+}     
+.learn-3{
+  background-color: rgb(91, 0, 0);
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      transition: opacity 0.15s;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      vertical-align: top;
+}
+
+.learn-3:hover{
+      opacity: 0.8;
+}
+
+.learn-3:active{
+      opacity: 0.4;
+}     
+
+.trainers{
+  text-align:center;
+  padding:80px 10px
+}
+.trainers h2{
+  font-size:45px;
+  margin-bottom:20px;
+}
+.trainers p{
+  max-width:800px;
+  margin:auto;
+  margin-bottom:20px;
+  line-height:1.8;
+  font-size:20px;
+}
+body{
+  background-color: rgb(55, 17, 17);
+  color: white;
+}
+
+.plans{
+  display:flex;
+  justify-content: center;
+  gap: 30px;
+}
+.card{
+    background:#1f1f1f;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+}
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+.trainers{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.trainer-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1f1f1f;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+}
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.contact{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.contact h2{
+  font-size: 45px;
+  margin-bottom:20px;
+}
+.contact p{
+  max-width:800px;
+  margin:auto;
+  margin-bottom:20px;
+  line-height:1.8;
+  font-size:20px;
+}
+.contact-card{
+    width:350px;
+    margin:40px auto;
+    background:#222;
+    border-radius:15px;
+    padding:30px;
+}
+.contact-card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.contact-card li{
+    margin:15px 0;
+}
+.contact-card:hover{
+    transform:translateY(-10px);
+    
+}
+.contact-card{
+    transition:0.3s;
+}
